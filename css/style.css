@@ -1,25 +1,49 @@
-input[type="range"] {
-    position: relative;
-    margin-left: 1em;
+/* line 2, ../sass/style.scss */
+input[type='range'] {
+  position: relative;
+  margin-left: 1em;
 }
 
-input[type="range"]:after,
-input[type="range"]:before {
-    position: absolute;
-    top: 1em;
-    color: #aaa;
+/* line 7, ../sass/style.scss */
+input[type='range']:after,
+input[type='range']:before {
+  position: absolute;
+  top: 1em;
+  color: #aaa;
 }
 
-input[type="range"]:before {
-    left: 0em;
-    content: attr(min);
+/* line 14, ../sass/style.scss */
+input[type='range']:before {
+  left: 0em;
+  content: attr(min);
 }
 
-input[type="range"]:after {
-    right: 0em;
-    content: attr(max);
+/* line 19, ../sass/style.scss */
+input[type='range']:after {
+  right: 0em;
+  content: attr(max);
 }
 
+/* line 24, ../sass/style.scss */
 .segment {
-    height: 200px;
+  height: 100px;
+  width: 100px;
+}
+
+/* line 29, ../sass/style.scss */
+.column {
+  font-size: 12px;
+}
+
+/* line 33, ../sass/style.scss */
+#color1,
+#color2 {
+  box-shadow: 2px 2px;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+
+/* line 40, ../sass/style.scss */
+.grid {
+  color: gray;
 }
