@@ -8,7 +8,7 @@ input[type='range']:after,
 input[type='range']:before {
     position: absolute;
     top: 1em;
-    color: #aaa;
+    color: black;
 }
 
 input[type='range']:before {
@@ -34,9 +34,5 @@ input[type='range']:after {
 #color2 {
     box-shadow: 2px 2px;
     border-radius: 10px;
-    border: 2px solid gray;
-}
-
-.grid {
-    color: gray;
+    border: 2px solid black;
 }
